@@ -25,7 +25,16 @@ Captured on eth1 with tcpdump while running `sudo nmap -sS -sV 192.168.100.129`.
 | baseline.pcap | 196 | 0 |
 
 ![Custom rule firing](../screenshots/suricata-custom-rule.png)
+## Zeek Comparison
 
+Zeek's conn.log gives an independent view of the same traffic:
+
+| Capture | Connections | Distinct destination ports |
+|---|---|---|
+| nmap-scan.pcap | 1128 | 1005 |
+| baseline.pcap | 6 | 6 |
+
+One source (192.168.100.128) accounts for nearly all connections in the scan log, and most connection states are REJ (target replied with a reset because the port was closed), which is the expected pattern for a SYN scan against mostly-closed ports. Normal traffic shows a small, varied set of states (mostly SF, a completed connection) across only a handful of ports.
 ## Limitations
 - The rule counts SYN packets, not distinct ports, so a flood of connections to a single port would also trigger it.
 - A slow scan that stays below 20 SYNs per 10 seconds would evade it. I have not tested that yet.

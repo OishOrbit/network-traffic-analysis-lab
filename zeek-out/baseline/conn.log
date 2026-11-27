@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2026-11-27-11-52-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents	ip_proto
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]	count
+1795771098.591000	CWImsCf2vGvVR2XCe	192.168.100.128	50256	192.168.100.129	80	tcp	http	0.084694	79	1099	SF	T	T	0	ShADadFf	9	555	7	1471	-	6
+1795771130.036723	ClWejy1tRx9TET0Oud	192.168.100.128	38428	192.168.100.129	52661	tcp	ftp-data	0.001738	0	68	SF	T	T	0	ShAdfFa	4	216	4	284	-	6
+1795771077.530178	CJcquD41pOk9Qz9r6e	192.168.100.128	8	192.168.100.129	0	icmp	-	2.017226	168	168	OTH	T	T	0	-	3	252	3	252	-	1
+1795771107.557057	CVrZD81GGrhDOBNqsd	192.168.100.128	44336	192.168.100.129	21	tcp	ftp	26.670460	60	309	SF	T	T	0	ShAdDafF	17	952	16	1149	-	6
+1795771151.706259	COBSsP3Fjwi9aCO2Wi	192.168.100.129	44684	192.168.100.1	53	udp	dns	6.219493	92	0	S0	T	T	0	D	2	148	0	0	-	17
+1795771151.686477	CTXchp4lkqizHfhN49	192.168.100.128	36762	192.168.100.129	23	tcp	-	30.496281	170	1306	S1	T	T	0	ShADad	72	3922	53	4070	-	6
+#close	2026-11-27-11-52-10

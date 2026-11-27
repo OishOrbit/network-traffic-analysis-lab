@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2026-11-27-11-49-10
+#fields	ts	fuid	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	string	addr	port	addr	port	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1795778376.342926	F7FpcAtyyD81HxPgd	CWBzCb1CpPrHZfidt7	192.168.100.128	46337	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	891	891	0	0	F	-	-	-	-	-	-	-
+1795778391.033804	FWSkGqZCq7yR8AdL9	Caucqh3hcREUrx5nl9	192.168.100.128	38619	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	2750	-	0	0	F	-	-	-	-	-	-	-
+1795778391.371396	FRpVug2MAf3sO2d564	CnGK2uYIvCYaSmCM3	192.168.100.128	40747	192.168.100.129	8180	HTTP	0	(empty)	text/plain	-	0.000000	T	F	126	-	0	0	F	-	-	-	-	-	-	-
+1795778395.978688	FxHbKq2KG0y1213mt3	C7w5Qf2mYXf3nQ0Qy1	192.168.100.128	37265	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	2750	-	0	0	F	-	-	-	-	-	-	-
+1795778407.761088	FuPOEh3v0xELL1fPhi	CGJZ8sXaE6rdHziZe	192.168.100.128	52900	192.168.100.129	8180	HTTP	0	(empty)	application/soap+xml	-	0.000000	T	T	441	441	0	0	F	-	-	-	-	-	-	-
+1795778407.762564	FeJGym13WAFjr4Dio7	CbWCXJ3F8WVGXxR2M3	192.168.100.128	33474	192.168.100.129	80	HTTP	0	(empty)	application/soap+xml	-	0.000000	T	T	441	441	0	0	F	-	-	-	-	-	-	-
+1795778407.764103	F9G2ctjaNk01v05Al	CGJZ8sXaE6rdHziZe	192.168.100.128	52900	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	958	958	0	0	F	-	-	-	-	-	-	-
+1795778407.764986	FLcMDg1VCT0agQliq3	CWA1Wi2eSgPKFSWQU9	192.168.100.128	33472	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	308	308	0	0	F	-	-	-	-	-	-	-
+1795778407.765649	FkCAGp2D5poaVGVj8h	CbWCXJ3F8WVGXxR2M3	192.168.100.128	33474	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	287	287	0	0	F	-	-	-	-	-	-	-
+1795778407.773603	FXFlhe3jb6Oib4UL3d	CLWsYa4WR2mj9zSFzg	192.168.100.128	52898	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	1021	1021	0	0	F	-	-	-	-	-	-	-
+1795778407.774360	FXmCg32eSefhEsCDed	C1msiZ2K0cWepATw8	192.168.100.128	33486	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	891	891	0	0	F	-	-	-	-	-	-	-
+1795778407.872212	FE7iLy3aZbfD7NX15f	Co1Bdq0GngRCZNXAg	192.168.100.128	52916	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	979	979	0	0	F	-	-	-	-	-	-	-
+1795778407.921894	FXaoSx1ylxgEdkWl3j	CEKJJf3G6tMVypKX67	192.168.100.128	33500	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	289	289	0	0	F	-	-	-	-	-	-	-
+1795778407.923253	FwGCmk1icMhqXwhyK1	C38wYgdp1UtO8zVxg	192.168.100.128	52924	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	964	964	0	0	F	-	-	-	-	-	-	-
+1795778407.974163	Fu8ruK2BbDCvlQyU5d	CsUZlz3zwRdvh9GIV7	192.168.100.128	33510	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	294	294	0	0	F	-	-	-	-	-	-	-
+1795778415.790222	FFbMfw1XPNifYTB58b	Cavtljs2wlfmpZXZg	192.168.100.128	58372	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	891	891	0	0	F	-	-	-	-	-	-	-
+1795778415.893408	FQ2act3cjMuMqGP5s8	CFlm5w21qaOQWUT8T1	192.168.100.128	58376	192.168.100.129	80	HTTP	0	(empty)	text/html	-	0.000000	T	F	891	891	0	0	F	-	-	-	-	-	-	-
+1795778417.374681	F2s2hS24DbZMKyBmc8	C49nW53FX2gOyivFN6	192.168.100.128	52882	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	2750	-	0	0	F	-	-	-	-	-	-	-
+1795778425.363899	F6G81o2AuenZdYGMN8	CmOV4pHeAgnI9O3J6	192.168.100.128	39462	192.168.100.129	8180	HTTP	0	(empty)	text/html	-	0.000000	T	F	2750	-	0	0	F	-	-	-	-	-	-	-
+#close	2026-11-27-11-49-10

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-11-27-11-49-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1795778386.333532	CDEbuB2YoIwpXcjLhj	192.168.100.128	42913	192.168.100.129	513	invalid_http_09_request_method	OPTIONS	F	zeek	HTTP
+1795778391.370351	CnGK2uYIvCYaSmCM3	192.168.100.128	40747	192.168.100.129	8180	invalid_http_09_request_method	OPTIONS	F	zeek	HTTP
+1795778396.371045	Ch5in02hEZrrIouCqf	192.168.100.128	43669	192.168.100.129	513	invalid_http_09_request_method	OPTIONS	F	zeek	HTTP
+#close	2026-11-27-11-49-10

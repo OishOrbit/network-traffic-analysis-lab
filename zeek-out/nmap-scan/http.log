@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-11-27-11-49-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1795778376.318934	CWBzCb1CpPrHZfidt7	192.168.100.128	46337	192.168.100.129	80	1	GET	-	/	-	1.1	-	-	0	891	200	OK	-	-	(empty)	-	-	-	-	-	-	F7FpcAtyyD81HxPgd	-	text/html
+1795778376.321915	CgUsmK3gw6uWTU32yk	192.168.100.128	45655	192.168.100.129	6000	1	OPTIONS	-	/	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778376.333221	CTDwiZ3SXxihFhoQ01	192.168.100.128	40503	192.168.100.129	5432	1	GET	-	/	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778376.366799	C1Mvni4xLt67atGGA6	192.168.100.128	41571	192.168.100.129	8009	1	GET	-	/	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778376.320067	CQv17q21XbM5s6AQ54	192.168.100.128	35653	192.168.100.129	514	1	GET	-	/	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778376.319175	CGzNY74iZkyndx3oP	192.168.100.128	46011	192.168.100.129	139	1	GET	-	/	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778381.378279	CbYckOUFXn2x7629a	192.168.100.128	33479	192.168.100.129	8009	1	GET	-	/nice ports,/Trinity.txt.bak	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778381.367758	Caucqh3hcREUrx5nl9	192.168.100.128	38619	192.168.100.129	8180	1	GET	-	/	-	1.1	-	-	0	2750	200	OK	-	-	(empty)	-	-	-	-	-	-	FWSkGqZCq7yR8AdL9	-	text/html
+1795778386.328922	CX3GocnaK0AP8Opse	192.168.100.128	41933	192.168.100.129	513	1	GET	-	/	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778386.331169	CIbZ7e13lz0B51VU3g	192.168.100.128	40619	192.168.100.129	513	1	OPTIONS	-	/	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778386.333532	CDEbuB2YoIwpXcjLhj	192.168.100.128	42913	192.168.100.129	513	1	OPTIONS	-	/ RTSP/1.	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778391.370351	CnGK2uYIvCYaSmCM3	192.168.100.128	40747	192.168.100.129	8180	1	OPTIONS	-	/ RTSP/1.	-	0.9	-	-	0	126	0	<empty>	-	-	(empty)	-	-	-	-	-	-	FRpVug2MAf3sO2d564	-	text/plain
+1795778386.369455	C7w5Qf2mYXf3nQ0Qy1	192.168.100.128	37265	192.168.100.129	8180	1	OPTIONS	-	/	-	1.1	-	-	0	2750	200	OK	-	-	(empty)	-	-	-	-	-	-	FxHbKq2KG0y1213mt3	-	text/html
+1795778396.362827	CIAxod2FRArNhuiCed	192.168.100.128	33509	192.168.100.129	513	1	GET	-	/nice ports,/Trinity.txt.bak	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1795778396.371045	Ch5in02hEZrrIouCqf	192.168.100.128	43669	192.168.100.129	513	1	OPTIONS	-	sip:nm SIP/2.	-	-	-	-	0	0	-	-	-	-	(empty)	-	-	VIA -> SIP/2.0/TCP nm;branch=foo	-	-	-	-	-	-
+1795778407.761088	CGJZ8sXaE6rdHziZe	192.168.100.128	52900	192.168.100.129	8180	1	POST	192.168.100.129:8180	/sdk	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	441	958	404	Not Found	-	-	(empty)	-	-	-	FuPOEh3v0xELL1fPhi	-	application/soap+xml	F9G2ctjaNk01v05Al	-	text/html
+1795778407.761865	CWA1Wi2eSgPKFSWQU9	192.168.100.128	33472	192.168.100.129	80	1	GET	192.168.100.129	/nmaplowercheck1795778407	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	0	308	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FLcMDg1VCT0agQliq3	-	text/html
+1795778407.762564	CbWCXJ3F8WVGXxR2M3	192.168.100.128	33474	192.168.100.129	80	1	POST	192.168.100.129	/sdk	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	441	287	404	Not Found	-	-	(empty)	-	-	-	FeJGym13WAFjr4Dio7	-	application/soap+xml	FkCAGp2D5poaVGVj8h	-	text/html
+1795778407.761066	CLWsYa4WR2mj9zSFzg	192.168.100.128	52898	192.168.100.129	8180	1	GET	192.168.100.129:8180	/nmaplowercheck1795778407	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	0	1021	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FXFlhe3jb6Oib4UL3d	-	text/html
+1795778407.762614	C1msiZ2K0cWepATw8	192.168.100.128	33486	192.168.100.129	80	1	GET	-	/	-	1.1	-	-	0	891	200	OK	-	-	(empty)	-	-	-	-	-	-	FXmCg32eSefhEsCDed	-	text/html
+1795778407.869913	Co1Bdq0GngRCZNXAg	192.168.100.128	52916	192.168.100.129	8180	1	GET	192.168.100.129:8180	/evox/about	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	0	979	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FE7iLy3aZbfD7NX15f	-	text/html
+1795778407.921161	CEKJJf3G6tMVypKX67	192.168.100.128	33500	192.168.100.129	80	1	GET	192.168.100.129	/HNAP1	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	0	289	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FXaoSx1ylxgEdkWl3j	-	text/html
+1795778407.921448	C38wYgdp1UtO8zVxg	192.168.100.128	52924	192.168.100.129	8180	1	GET	192.168.100.129:8180	/HNAP1	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	0	964	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FwGCmk1icMhqXwhyK1	-	text/html
+1795778407.973357	CsUZlz3zwRdvh9GIV7	192.168.100.128	33510	192.168.100.129	80	1	GET	192.168.100.129	/evox/about	-	1.1	Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)	-	0	294	404	Not Found	-	-	(empty)	-	-	-	-	-	-	Fu8ruK2BbDCvlQyU5d	-	text/html
+1795778415.774783	Cavtljs2wlfmpZXZg	192.168.100.128	58372	192.168.100.129	80	1	GET	-	/	-	1.1	-	-	0	891	200	OK	-	-	(empty)	-	-	-	-	-	-	FFbMfw1XPNifYTB58b	-	text/html
+1795778415.881402	CFlm5w21qaOQWUT8T1	192.168.100.128	58376	192.168.100.129	80	1	GET	192.168.100.129	/	-	1.1	-	-	0	891	200	OK	-	-	(empty)	-	-	-	-	-	-	FQ2act3cjMuMqGP5s8	-	text/html
+1795778407.761009	C49nW53FX2gOyivFN6	192.168.100.128	52882	192.168.100.129	8180	1	GET	-	/	-	1.1	-	-	0	2750	200	OK	-	-	(empty)	-	-	-	-	-	-	F2s2hS24DbZMKyBmc8	-	text/html
+1795778415.774909	CmOV4pHeAgnI9O3J6	192.168.100.128	39462	192.168.100.129	8180	1	GET	-	/	-	1.1	-	-	0	2750	200	OK	-	-	(empty)	-	-	-	-	-	-	F6G81o2AuenZdYGMN8	-	text/html
+#close	2026-11-27-11-49-10

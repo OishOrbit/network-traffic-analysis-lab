@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2026-11-27-11-52-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected	opcode	opcode_name
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool	count	string
+1795771151.706259	COBSsP3Fjwi9aCO2Wi	192.168.100.129	44684	192.168.100.1	53	udp	38819	-	128.100.168.192.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	T	F	0	-	-	F	0	query
+1795771157.925752	COBSsP3Fjwi9aCO2Wi	192.168.100.129	44684	192.168.100.1	53	udp	38819	-	128.100.168.192.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	T	F	0	-	-	F	0	query
+#close	2026-11-27-11-52-10

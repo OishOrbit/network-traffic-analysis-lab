@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2026-11-27-11-49-10
+#fields	ts	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	failure_reason	failure_data
+#types	time	string	string	string	string	addr	port	addr	port	enum	string	string
+1795778379.943137	protocol	HTTP	CQv17q21XbM5s6AQ54	-	192.168.100.128	35653	192.168.100.129	514	tcp	not a http reply line	-
+#close	2026-11-27-11-49-10

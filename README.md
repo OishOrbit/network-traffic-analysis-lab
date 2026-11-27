@@ -11,5 +11,7 @@ A virtual lab for capturing and analyzing network traffic, built with VMware, Ka
 - [x] Isolated lab network built
 - [x] Baseline capture (ping, HTTP, FTP, Telnet)
 - [x] Cleartext FTP credentials recovered with Follow TCP Stream
-- [ ] Suricata and Zeek analysis
-- [ ] Attack scenarios and custom detection rules
+- [x] Suricata analysis (default rules + custom SYN scan rule)
+- [ ] Zeek analysis
+- [x] Scenario 1: nmap SYN and version scan with custom detection rule
+- [ ] More scenarios (FTP login, SSH brute force, web attack)

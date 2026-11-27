@@ -1,0 +1,21 @@
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Notice: suricata: This is Suricata version 8.0.8 RELEASE running in USER mode
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Info: cpu: CPUs/cores online: 4
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Info: suricata: Setting engine mode to IDS mode by default
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Info: exception-policy: master exception-policy set to: auto
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Info: suricata: Preparing unexpected signal handling
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Info: logopenfile: fast output device (regular) initialized: fast.log
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[104074 - Suricata-Main] 2026-11-27 06:28:27 Info: logopenfile: stats output device (regular) initialized: stats.log
+[104074 - Suricata-Main] 2026-11-27 06:28:47 Info: detect: 1 rule files processed. 53605 rules successfully loaded, 0 rules failed, 0 rules skipped
+[104074 - Suricata-Main] 2026-11-27 06:28:48 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[104074 - Suricata-Main] 2026-11-27 06:28:48 Info: detect: 53610 signatures processed. 1252 are IP-only rules, 4545 are inspecting packet payload, 47576 inspect application layer, 111 are decoder event only
+[104074 - Suricata-Main] 2026-11-27 06:28:49 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[104263 - RX#01] 2026-11-27 06:28:50 Info: pcap: Starting file run for /home/kali/network-lab/pcaps/nmap-scan.pcap
+[104074 - Suricata-Main] 2026-11-27 06:28:50 Notice: threads: Threads created -> RX: 1 W: 4 FM: 1 FR: 1   Engine started.
+[104263 - RX#01] 2026-11-27 06:28:50 Info: checksum: No packets with invalid checksum, assuming checksum offloading is NOT used
+[104263 - RX#01] 2026-11-27 06:28:50 Info: pcap: pcap file /home/kali/network-lab/pcaps/nmap-scan.pcap end of file reached (pcap err code 0)
+[104074 - Suricata-Main] 2026-11-27 06:28:50 Notice: suricata: Signal Received.  Stopping engine.
+[104074 - Suricata-Main] 2026-11-27 06:28:50 Info: suricata: time elapsed 0.130s
+[104263 - RX#01] 2026-11-27 06:28:50 Notice: pcap: read 1 file, 2858 packets, 216127 bytes
+[104074 - Suricata-Main] 2026-11-27 06:28:50 Info: counters: Alerts: 404
+[104262 - US] 2026-11-27 06:28:50 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket' closed
